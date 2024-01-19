@@ -16,8 +16,8 @@ def greetMe():
         speak("Good Morning,sir")
     elif hour >12 and hour<=18:
         speak("Good Afternoon ,sir")
+
     else:
         speak("Good Evening,sir")
 
     speak("Please tell me, How can I help you ?")
-    

@@ -69,5 +69,3 @@ def searchWikipedia(query):
         speak("According to wikipedia..")
         print(results)
         speak(results)
-    
-

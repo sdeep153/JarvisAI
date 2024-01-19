@@ -73,9 +73,3 @@ def closeappweb(query):
         for app in keys:
             if app in query:
                 os.system(f"taskkill /f /im {dictapp[app]}.exe")
-            elif "set an alarm" in query:
-                print("input time example:- 10 and 10 and 10")
-                speak("Set the time")
-                a = input("Please tell the time :- ")
-                alarm(a)
-                speak("Done,sir")
